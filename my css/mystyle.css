@@ -1,0 +1,11 @@
+body{
+    background-image: url(bg.jpg);
+}
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    color: chocolate;
+}
+p{
+    text-align: right;
+    color: blueviolet;
+}
