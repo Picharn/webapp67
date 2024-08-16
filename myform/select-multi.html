@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        h2, h3 {
+            color: tomato;
+        }
+        body {
+            background-color: antiquewhite; 
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Select Multiple Option</title>
+</head>
+<body>
+    <h2>กรุณาเลือกแผนกที่ท่านเลือก</h2>
+    <form>
+        <select name="section" multiple>
+            <option value="it"> Infromation Technolog</option>
+            <option value="acc"> Account Unit</option>
+            <option value="hr"> Human Resource</option>
+            <option value="ceo"> Cheif Executive Operation</option>
+        </select>
+        <h3>เมื่อเลือกสังกัดแลเว กดปุ่มส่งข้อมูลได้เลย</h3>
+        <br>
+        <input type="submit" id="OK" name="send" value="ส่งข้อมูล">
+        <input type="reset" id="clear" name="cancle" value="ยกเลิก">
+    </form>
+</body>
+</html>
