@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        .border-radius{
+            border-radius: 30%;
+            width: 800px;
+            height: 650px;
+            border: 1px solid black;
+
+            
+        }
+        .squre{
+            width: 900px;
+            height: 500px;
+            background-color: yellow;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            text-align: center;
+            font-size: 100px;
+        }
+        .squre:fullscreen {
+            background-color: #cc8fe6;
+            width: 100vw;
+            height: 100vh;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fullscreen Mode</title>
+</head>
+<body>
+    <div class="border-radius"> <p>Click the button below to enter the element into fullscreen mode.</p>
+        <div class="squre" id="squre">Change color in fullscreen mode!</div> </div>
+        <br><br><br>
+        <button onclick="var el = document.getElementById('squre'); el.requestFullscreen();">Click here!</button>
+</body>
+</html>

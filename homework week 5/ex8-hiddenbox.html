@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        .element1{
+            position: relative;
+            background: hsl(282, 83%, 49%);
+            width: 100px;
+            height: 100px;
+        }
+        .element2{
+            position: absolute;
+            visibility: hidden;
+            left: 100%;
+            background: rgb(243, 169, 211);
+            color: beige;
+            padding: 30px;
+        }
+         .element1:hover > .element2{
+            visibility: visible;
+         }
+    </style>
+    <meta charset="UTF-8">
+    <title>hidden box</title>
+</head>
+<body>
+    <div class="element1">
+    <div class="element2">w3resource Popout menu</div>
+</div>
+</body>
+</html>

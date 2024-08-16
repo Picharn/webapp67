@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        div{
+            display: inline;
+            margin: 8px;
+        }
+        .case{
+            transition: color 0.5s ease;
+        }
+        .case:hover ~ .case:not(:hover),
+        .case:hover ~ .case {
+            color: black;
+        }
+
+        .container:hover .case:not(:hover) {
+            color: #00000023;
+        }
+
+    </style>
+    <meta charset="UTF-8">
+    <title>Fades</title>
+
+</head>
+<body>
+    <div class="container">
+    <div class="case">Case1</div>
+    <div class="case">Case2</div>
+    <div class="case">Case3</div>
+    </div>
+</body>
+</html>
