@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="testcss.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>registeruser</title>
+</head>
+<body style="text-align: center;">
+    <nav>
+        <header class="hearuser">
+            <h1 style="text-align: center; padding: 20px 0;">สมัครสมาชิกผู้ใช้งาน</h1>
+        </header>
+    </nav>
+    <h3>1.ข้อมูลส่วนตัว</h3>
+    <form>
+        ชื่อผู้ใช้ : 
+        <br>
+        <input type="text" id="user" name="uesrname" value="">
+        <br>
+        นามสกุล : 
+        <br>
+        <input type="text" id="suruser" name="uesrsurname" value="">
+        <br>
+        เบอร์โทร : 
+        <br>
+        <input type="text" id="phone" name="cellphone" value="">
+        <br>
+    </form>
+    <h3>2.ที่อยู่ปัจจุบัน</h3>
+    <form action="user.html" method="post" target="_blank">
+        บ้านเลขที่ : 
+        <br>
+        <input type="number" id="number" name="housenumber" value="">
+        <br>
+        จังหวัด : 
+        <br>
+        <select name="province">
+            <option value="pathumThani"> ปทุมธานี</option>
+            <option value="bankok">กรุงเทพ</option>
+        </select>
+        <br>
+        อำเภอ : 
+        <br>
+        <select name="sport">
+            <option value="tennis"> คลองหลวง</option>
+            <option value="football">ปากน้ำ</option>
+        </select>
+        <br>
+        ตำบล : 
+        <br>
+        <select name="sport">
+            <option value="tennis"> คลองสี่</option>
+            <option value="football">คลองเตย</option>
+        </select>
+        <br>
+        รหัสไปรษณี : 
+        <br>
+        <input type="number" id="zipcode" name="zipcode" value="">
+        <br>
+        รายระเอียดที่อยู่ : 
+        <br>
+        <input type="text" id="user" name="uesrname" value="">
+        <br><br>
+        อัพโหลดรูปโปรไฟล์ :
+        <br>
+        <input type="file" id="file" name="file" value="เอกสารแนบ">
+        <br><br>
+        <input class="in05" type="submit" id="send" name="send" value="เข้าระบบ">
+       
+        <input class="in06" type="reset" id="cancel" name="cancel" value="ยกเลิก">
+    </form>
+    
+</body>
+</html>
